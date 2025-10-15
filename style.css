@@ -1,0 +1,54 @@
+/*   HTML    */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-bg-color: #F5F5F5;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 3rem);
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+/*   HEADER    */
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav ul {
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    border: 1px solid #00000021;
+    border-radius: 3vw;
+    padding: 0.8vw 0.4vw;
+}
+header nav ul li a {
+    padding:  10px 20px;
+    border-radius: 30px;
+}
+header nav ul li a.atual {
+    background-color: #000000;
+    color: white;
+}
+/*   MAIN    */
+section.banner {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    max-width: 1500px;
+}
+section.banner h1 {
+    width: 40vw;
+    font-size: 3vw;
+    padding: 0 8vw 0 0;
+}
+section.banner p {
+}
