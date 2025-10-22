@@ -27,12 +27,13 @@ header nav ul {
     justify-content: center;
     gap: 4vw;
     border: 1px solid #00000021;
-    border-radius: 3vw;
+    border-radius: 5vw;
     padding: 0.8vw 0.4vw;
 }
 header nav ul li a {
     padding:  10px 20px;
     border-radius: 30px;
+    border: none;
 }
 header nav ul li a.atual {
     background-color: #000000;
@@ -40,15 +41,120 @@ header nav ul li a.atual {
 }
 /*   MAIN    */
 section.banner {
-    display: flex;
-    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5vw auto 0 auto;
     width: 80%;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 section.banner h1 {
     width: 40vw;
     font-size: 3vw;
-    padding: 0 8vw 0 0;
+}
+section.banner h1 span {
+    font-weight: bold;
 }
 section.banner p {
+    font-size: 1.5vw;
+}
+section.banner p strong {
+    color: #7C7C7C;
+}
+section.posts {
+    margin: 5vw auto 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+section.posts > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+section.posts > ul > li {
+    background-color: white;
+    border-radius: 1vw;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.267);
+    
+}
+section.posts > ul > li img {
+    margin: 0 0 1vw 0;
+}
+section.posts > ul > li {
+    padding: 1vw 3vw;
+}
+section.posts > ul > li p {
+    line-height: 2rem;
+    margin: 0 0 1.4vw 0;
+}
+section.posts > ul > li h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 1vw 0;
+}
+section.posts > ul > li ul {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+section.posts > ul > li ul li a {
+    background-color: rgba(128, 128, 128, 0.199);
+    padding:5px;
+    border-radius: 1vw;
+}
+footer.home {
+    margin: 5vw auto 5vw auto;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #7C7C7C;
+    padding: 2vw 0;
+    border: 1px solid #7c7c7cb6 ;
+    border-radius: 2vw;
+    font-size: 1vw;
+}
+section.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5vw auto 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+section.about h1 {
+    width: 40vw;
+    font-size: 3vw;
+}
+section.about h1 span {
+    font-weight: bold;
+}
+section.about p {
+    font-size: 1.5vw;
+    color: #7C7C7C;
+    line-height: 3vw;
+}
+section.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5vw auto 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+section.projects h1 {
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+section.projects p {
+    font-size: 1.5vw;
+    color: #7C7C7C;
+    line-height: 3vw;
+}
+section.eco {
+    margin: 5vw auto 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 2vw 0;
 }
