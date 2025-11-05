@@ -297,3 +297,8 @@ section.links ul li a {
     margin: 0vw 10vw ;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+	.posts{
+        display: block ;
+    }
+} 
