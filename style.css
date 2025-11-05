@@ -49,13 +49,13 @@ section.banner {
 }
 section.banner h1 {
     width: 40vw;
-    font-size: 3vw;
+    font-size: 3rem;
 }
 section.banner h1 span {
     font-weight: bold;
 }
 section.banner p {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 section.banner p strong {
     color: #7C7C7C;
@@ -104,7 +104,7 @@ section.posts > ul > li ul li a {
     border-radius: 1vw;
 }
 footer.home {
-    margin: 5vw auto 5vw auto;
+    margin: 5rem auto 5rem auto;
     width: 80%;
     max-width: 1200px;
     text-align: center;
@@ -112,8 +112,8 @@ footer.home {
     color: #7C7C7C;
     padding: 2vw 0;
     border: 1px solid #7c7c7cb6 ;
-    border-radius: 2vw;
-    font-size: 1vw;
+    border-radius: 2rem;
+    font-size: 1rem;
 }
 section.about {
     display: grid;
@@ -298,7 +298,36 @@ section.links ul li a {
     justify-content: space-between;
 }
 @media only screen and (max-width: 600px) {
-	.posts{
+	header {
         display: block ;
+        font-size: 2.5vw;
+    }
+    header nav ul {
+        padding: 4vw 1vw;
+        border-radius: 20vw;
+        font-size: 3vw;
+    }
+    header nav ul li a {
+        padding: 3.5vw;
+        border-radius: 20vw;
+    }
+    section.banner {
+        grid-template-columns: none;
+        margin: 5vw auto 0 auto;
+        width: 80%;
+        max-width: 1200px;
+    }
+    section.posts > ul {
+        display: block;
+    }
+    section.banner h1 {
+        font-size: 2.2rem;
+    }
+    section.banner p {
+        margin: 2rem 0;
+    }
+    section.posts ul li{
+    margin: 0 0 3rem 0;
+
     }
 } 
