@@ -118,21 +118,21 @@ footer.home {
 section.about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5vw auto 0 auto;
+    margin: 5rem auto 0 auto;
     width: 80%;
     max-width: 1200px;
 }
 section.about h1 {
-    width: 40vw;
-    font-size: 3vw;
+    width: 40rem;
+    font-size: 3rem;
 }
 section.about h1 span {
     font-weight: bold;
 }
 section.about p {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: #7C7C7C;
-    line-height: 3vw;
+    line-height: 3rem;
 }
 section.projects {
     display: grid;
@@ -329,5 +329,24 @@ section.links ul li a {
     section.posts ul li{
     margin: 0 0 3rem 0;
 
+    }
+    section.about {
+        grid-template-columns: none;
+        margin: 5rem auto 0 auto;
+        width: 80%;
+        max-width: 1200px;
+        display: inline-block;
+    }
+    section.about h1 {
+        font-size: 2.2rem;
+        margin: 5rem auto 0 auto;
+        width: 80%;
+        max-width: 1200px;
+    }
+    section.about p {
+        margin: 2rem 0;
+        margin: 5rem auto 0 auto;
+        width: 80%;
+        max-width: 1200px;
     }
 } 
