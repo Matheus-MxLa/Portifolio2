@@ -56,6 +56,7 @@ section.banner h1 span {
 }
 section.banner p {
     font-size: 1.5rem;
+    color: #7C7C7C;
 }
 section.banner p strong {
     color: #7C7C7C;
@@ -114,42 +115,6 @@ footer.home {
     border: 1px solid #7c7c7cb6 ;
     border-radius: 2rem;
     font-size: 1rem;
-}
-section.about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5rem auto 0 auto;
-    width: 80%;
-    max-width: 1200px;
-}
-section.about h1 {
-    width: 40rem;
-    font-size: 3rem;
-}
-section.about h1 span {
-    font-weight: bold;
-}
-section.about p {
-    font-size: 1.5rem;
-    color: #7C7C7C;
-    line-height: 3rem;
-}
-section.projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5vw auto 0 auto;
-    width: 80%;
-    max-width: 1200px;
-}
-section.projects h1 {
-    width: 40vw;
-    font-size: 3vw;
-    font-weight: bold;
-}
-section.projects p {
-    font-size: 1.5vw;
-    color: #7C7C7C;
-    line-height: 3vw;
 }
 section.eco {
     margin: 5vw auto 0 auto;
@@ -259,23 +224,6 @@ section.hub img {
     width: 100%;
     padding: 1vw 0 0 0;
 }
-section.connect {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5vw auto 0 auto;
-    width: 80%;
-    max-width: 1200px;
-}
-section.connect h1 {
-    width: 40vw;
-    font-size: 3vw;
-    font-weight: bold;
-}
-section.connect p {
-    font-size: 1.5vw;
-    color: #7C7C7C;
-    line-height: 3vw;
-}
 section.links ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -317,36 +265,20 @@ section.links ul li a {
         width: 80%;
         max-width: 1200px;
     }
-    section.posts > ul {
-        display: block;
-    }
     section.banner h1 {
         font-size: 2.2rem;
     }
     section.banner p {
         margin: 2rem 0;
     }
+    section.posts > ul {
+        display: block;
+    }
     section.posts ul li{
     margin: 0 0 3rem 0;
-
     }
-    section.about {
-        grid-template-columns: none;
-        margin: 5rem auto 0 auto;
-        width: 80%;
-        max-width: 1200px;
-        display: inline-block;
-    }
-    section.about h1 {
-        font-size: 2.2rem;
-        margin: 5rem auto 0 auto;
-        width: 80%;
-        max-width: 1200px;
-    }
-    section.about p {
-        margin: 2rem 0;
-        margin: 5rem auto 0 auto;
-        width: 80%;
-        max-width: 1200px;
+    section.posts ul li ul.shop li:last-child {
+        justify-content: space-between;
+        margin: 0 0 0 0;
     }
 } 
